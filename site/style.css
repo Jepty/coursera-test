@@ -11,14 +11,11 @@ html, body
 	background-color: #404040FF;
 	margin: 0 auto;
 	position: fixed;
-<<<<<<< HEAD
-=======
-	font-size-adjust: initial;
->>>>>>> c25a5b4a381b91a616c5df487cb493cddd857df5
 }
 
 .h
 {
-	font-size: 95%;
+	font-family: 'Teko', sans-serif;
+	font-size: 595%;
 	color: orange;
 }
