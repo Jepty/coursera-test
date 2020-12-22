@@ -15,6 +15,7 @@ html, body
 
 .h
 {
-	font-size: 95%;
+	font-family: 'Teko', sans-serif;
+	font-size: 595%;
 	color: orange;
 }
