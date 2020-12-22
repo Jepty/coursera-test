@@ -9,5 +9,7 @@ html, body
 	width: 100%;
 	height: 2%;
 	color: orange;
-	background-color: #40404080;
+	background-color: #404040FF;
+	margin: 0 auto;
+	position: fixed;
 }
