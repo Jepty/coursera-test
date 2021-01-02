@@ -1,0 +1,27 @@
+*
+{
+	box-sizing: border-box;
+}
+
+div
+{
+	float: left;
+	height: 150px;
+	width: 30%;
+	border: 3px solid;
+	margin: 5% 1.5%;
+}
+
+h1
+{
+	margin: 5% auto;
+	width: 100%;
+	text-align: center;
+}
+
+section
+{
+	width: 20%;
+	border: 3px solid;
+	text-align: center;
+}
