@@ -3,25 +3,100 @@
 	box-sizing: border-box;
 }
 
-div
+	h1
+	{
+		margin: 5% auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	section
+	{
+		width: 20%;
+		border: 3px solid black;
+		text-align: center;
+		float: right;
+		margin: -3px -3px;
+	}
+
+	p
+	{
+		margin: 10% auto;
+		width: 95%;
+		height: 90%;
+	}
+
+	.chick
+	{
+		background-color: #EFA8F4FF;
+	}
+
+	.beef
+	{
+		background-color: red;
+		color: white;
+	}
+
+	.sus
+	{
+		background-color: #FFE97FFF;
+	}
+
+@media (max-width: 767px)
 {
-	float: left;
-	height: 150px;
-	width: 30%;
-	border: 3px solid;
-	margin: 5% 1.5%;
+	div
+	{
+		float: left;
+		height: 150px;
+		width: 85%;
+		border: 3px solid;
+		margin: 1% 7.5%;
+		background-color: silver;
+	}
 }
 
-h1
+@media (min-width: 768px) and (max-width: 991px)
 {
-	margin: 5% auto;
-	width: 100%;
-	text-align: center;
+	.d1
+	{
+		float: left;
+		height: 150px;
+		width: 48%;
+		border: 3px solid;
+		margin: 1%;
+		background-color: silver;
+	}
+
+	.d2
+	{
+		float: left;
+		height: 150px;
+		width: 48%;
+		border: 3px solid;
+		margin: 1%;
+		background-color: silver;
+	}
+
+	.d3
+	{
+		float: left;
+		height: 150px;
+		width: 98%;
+		border: 3px solid;
+		margin: 1%;
+		background-color: silver;
+	}
+
 }
 
-section
-{
-	width: 20%;
-	border: 3px solid;
-	text-align: center;
+@media (min-width: 992px){
+	div
+	{
+		float: left;
+		height: 150px;
+		width: 30%;
+		border: 3px solid;
+		margin: 5% 1.5%;
+		background-color: silver;
+	}
 }
