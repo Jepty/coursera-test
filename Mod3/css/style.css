@@ -2,3 +2,39 @@
 {
 	box-sizing: border-box;
 }
+
+body{
+	background-color: white;
+}
+
+h1{
+	margin: 0px 20px auto;
+}
+
+h2{
+	text-align: center;
+	margin: 5px auto;
+}
+
+nav{
+	background-color: silver;
+	border: 2px solid;
+}
+
+section{
+	margin: 15px 10px auto;
+}
+
+#Chicken{
+	width: 95%;
+	background-color: silver;
+	margin: 30px auto;
+}
+
+#Menu{
+	width:100%;
+	margin: 15px auto;
+	text-align: center;
+}
+
+
